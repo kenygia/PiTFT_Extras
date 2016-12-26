@@ -215,7 +215,7 @@ def determine_type():
     # Check for display type based on loaded modules.
     if 'stmpe_ts' in modules and 'fb_ili9340' in modules:
         return '28r'
-    elif 'ft6x06_ts' in modules and 'fb_ili9340' in modules:
+    elif 'ft6236' in modules and 'fb_ili9340' in modules:
         return '28c'
     elif 'stmpe_ts' in modules and 'fb_hx8357d' in modules:
         return '35r'
